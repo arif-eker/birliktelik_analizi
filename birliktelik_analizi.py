@@ -6,7 +6,7 @@ from mlxtend.frequent_patterns import apriori, association_rules
 from mlxtend.preprocessing import TransactionEncoder
 
 # Veri setimizi okuttuk.
-df = pd.read_csv("GroceryStoreDataSet.csv", header=None)
+df = pd.read_csv("data/GroceryStoreDataSet.csv", header=None)
 
 df.head()
 
